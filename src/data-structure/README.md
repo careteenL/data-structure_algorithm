@@ -2,4 +2,4 @@
 
 ### 传送门
 
-- [栈 - stack](stack.js)
+- [栈 - stack](./stack.md)
