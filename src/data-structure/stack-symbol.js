@@ -42,3 +42,5 @@ let Stack = (function () {
   }  
   return Stack
 })()
+
+export default Stack

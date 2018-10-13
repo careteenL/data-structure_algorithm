@@ -1,7 +1,7 @@
 /**
  * @desc 用数组实现栈
  */ 
-class Stack {
+export default class Stack {
   constructor() {
     this.items = []
   }
