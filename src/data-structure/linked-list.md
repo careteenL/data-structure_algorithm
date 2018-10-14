@@ -22,7 +22,12 @@
 
 - [双向链表](./doubly-linked-list.js)
 
+  双向链表在某个位置插入一个元素的思想如下
+  ![doubly-linked-list](../../assets/doubly-linked-list.png)
+
 - [循环单向链表](./circular-linked-list.js)
+
+- 循环双向链表... ps: 很好实现
 
 ### API
 
@@ -111,7 +116,7 @@ to be replaced
 
 ### Where
 
-to be replaced
+- to be replaced
 
 - 更多使用场景...
 
