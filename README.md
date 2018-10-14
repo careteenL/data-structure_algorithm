@@ -8,7 +8,9 @@
 
 #### 数据结构
 
-- [栈 - Stack](https://github.com/careteenL/data-structure_algorithm/blob/master/src/data-structure/stack.md)
+- [栈 - Stack](./src/data-structure/stack.md)
+- [队列 - queue](./src/data-structure/queue.md)
+- [链表 - linked-list](./src/data-structure/linked-list.md)
 
 #### 算法
 
