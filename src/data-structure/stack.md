@@ -2,11 +2,11 @@
 
 ### Portal
 
-- [What](#What)
-- [How](#How)
-- [API](#API)
-- [Usage](#Usage)
-- [Where](#Where)
+- [What](#what)
+- [How](#how)
+- [API](#api)
+- [Usage](#usage)
+- [Where](#where)
 
 ### What
 
