@@ -1,7 +1,7 @@
 /**
  * @desc 使用symbol+数组实现栈
  */ 
-let Stack = (function () {
+let StackSymbol = (function () {
   const _items = Symbol('stackItems')
   class Stack {
     constructor() {
@@ -43,4 +43,4 @@ let Stack = (function () {
   return Stack
 })()
 
-export default Stack
+export default StackSymbol

@@ -1,4 +1,4 @@
-## 栈
+## 栈 - Stack
 
 ### Catalog
 
@@ -19,8 +19,8 @@
   > 缺点：尽管代码看起来更简洁、更漂亮，变量items却是公共的。ES6的类式基于原型的。虽然基友原型的类比基于函数的类更节省内存，也更适合创建多个实例，却不能够声明私有属性（变量）或方法。
 
   ```js
-  import { Stack } from 'ct-dsa'
-  const stack = new Stack()
+  import { StackArray } from 'ct-dsa'
+  const stack = new StackArray()
   stack.items = [] // 可以直接修改栈，不是我们期望看到的 ❌
   ```
 
@@ -29,8 +29,8 @@
   > 若不使用闭包的方式包裹，虽然看似不能修改栈，但实则可通过以下方式修改
 
   ```js
-  import { Stack } from 'ct-dsa'
-  const stack = new Stack()
+  import { StackSymbol } from 'ct-dsa'
+  const stack = new StackSymbol()
   stack.push(5)
   const objectSymbols = Object.getOwnPropertySymbols(stack)
   console.log(objectSymbols.length) // 1
