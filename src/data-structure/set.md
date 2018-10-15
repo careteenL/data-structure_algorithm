@@ -36,13 +36,13 @@ set.values() // => 返回类型为 Iterator
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 添加元素 | element | Any | - | Boolean |
+| 添加元素 | element | - | Any | Boolean |
 
 #### delete
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 删除元素 | element | Any | - | Boolean |
+| 删除元素 | element | - | Any | Boolean |
 
 #### values
 
@@ -78,25 +78,25 @@ set.values() // => 返回类型为 Iterator
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 两个集合的并集 | otherSet | Set | - | Set |
+| 两个集合的并集 | otherSet | - | Set | Set |
 
 #### intersection
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 两个集合的交集 | otherSet | Set | - | Set |
+| 两个集合的交集 | otherSet | - | Set | Set |
 
 #### difference
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 两个集合的差集 | otherSet | Set | - | Set |
+| 两个集合的差集 | otherSet | - | Set | Set |
 
 #### isSubsetOf
 
 | desc | param | mean | type | return |
 | :---: | :---: | :--: | :--: | :--: |
-| 是否为某个集合的子集 | otherSet | Set | - | Set |
+| 是否为某个集合的子集 | otherSet | - | Set | Set |
 
 
 ### Usage
