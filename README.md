@@ -11,6 +11,7 @@
 - [栈 - Stack](./src/data-structure/stack.md)
 - [队列 - queue](./src/data-structure/queue.md)
 - [链表 - linked-list](./src/data-structure/linked-list.md)
+- [集合 - set](./src/data-structure/set.md)
 
 #### 算法
 
