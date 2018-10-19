@@ -36,6 +36,22 @@
 
 时间复杂度为`O(n2)`
 
+#### 使用
+
+```js
+import { bubbleSort } from 'ct-dsa'
+function createNonSortedArray(){
+  var array = [];
+  for (let i = 5; i > 0; i--){
+      array.push(i);
+  }
+  return array;
+}
+
+const array = bubbleSort(createNonSortedArray());
+console.log(array);
+```
+
 #### 应用
 
 -
@@ -61,6 +77,22 @@
 
 平均情况时间复杂度为`O(n2)`
 
+#### 使用
+
+```js
+import { selectionSort } from 'ct-dsa'
+function createNonSortedArray(){
+  var array = [];
+  for (let i = 5; i > 0; i--){
+      array.push(i);
+  }
+  return array;
+}
+
+const array = selectionSort(createNonSortedArray());
+console.log(array);
+```
+
 #### 应用
 
 -
@@ -69,7 +101,7 @@
 
 #### 思想
 
-插入排序每次拍一个数组项，以此方式构建最后的排序数组。嘉定第一项已经排序好了，接着，它和第二项进行比较，第二项是应该待在原味还是插入到第一项之前呢？这样，头两项就已正确排序，接着喝第三项比较（它是该插入到第一、第二还是第三的位置呢？），以此类推。
+插入排序每次排一个数组项，以此方式构建最后的排序数组。假定第一项已经排序好了，接着，它和第二项进行比较，第二项是应该待在原位还是插入到第一项之前呢？这样，头两项就已正确排序，接着和第三项比较（它是该插入到第一、第二还是第三的位置呢？），以此类推。
 
 排序过程如下：
 ![insertion-sort](../../../assets/insertion-sort.png)
@@ -86,9 +118,25 @@
 
 平均情况时间复杂度为O(n2)，不过在小型数组时，此算法比选择排序和冒泡排序性能要好。
 
+#### 使用
+
+```js
+import { insertionSort } from 'ct-dsa'
+function createNonSortedArray(){
+  var array = [];
+  for (let i = 5; i > 0; i--){
+      array.push(i);
+  }
+  return array;
+}
+
+const array = insertionSort(createNonSortedArray());
+console.log(array);
+```
+
 #### 应用
 
-- chrome下的v8在数据量小于10时使用插入排序，大于10时使用快速排序。
+- chrome下的[v8](https://github.com/v8/v8/blob/ad82a40509c5b5b4680d4299c8f08d6c6d31af3c/src/js/array.js##L760:7)在数据量小于10时使用插入排序，大于10时使用快速排序。
 
 ### 归并排序
 
@@ -110,6 +158,22 @@
 - 平均情况： T(n) = O(nlogn)
 
 平均情况时间复杂度为O(nlogn)
+
+#### 使用
+
+```js
+import { mergeSort } from 'ct-dsa'
+function createNonSortedArray(){
+  var array = [];
+  for (let i = 5; i > 0; i--){
+      array.push(i);
+  }
+  return array;
+}
+
+const array = mergeSort(createNonSortedArray());
+console.log(array);
+```
 
 #### 应用
 
@@ -141,9 +205,25 @@
 
 平均情况时间复杂度为O(nlogn)，且它的性能比其他复杂度为O(nlogn)的排序算法要好。
 
+#### 使用
+
+```js
+import { quickSort } from 'ct-dsa'
+function createNonSortedArray(){
+  var array = [];
+  for (let i = 5; i > 0; i--){
+      array.push(i);
+  }
+  return array;
+}
+
+const array = quickSort(createNonSortedArray());
+console.log(array);
+```
+
 #### 应用
 
-- chrome下的v8在数据量小于10时使用插入排序，大于10时使用快速排序。
+- chrome下的[v8](https://github.com/v8/v8/blob/ad82a40509c5b5b4680d4299c8f08d6c6d31af3c/src/js/array.js##L760:7)在数据量小于10时使用插入排序，大于10时使用快速排序。
 
 
 ### 堆排序
@@ -177,6 +257,19 @@
 - 最佳情况： T(n) = O(nlogn)
 - 最坏情况： T(n) = O(nlogn)
 - 平均情况： T(n) = O(nlogn)
+
+#### 使用
+
+```js
+import { heapSort } from 'ct-dsa'
+
+let arr = [91,60,96,13,35,65,46,65,10,30,20,31,77,81,22]
+
+console.log(heapSort(arr))
+//[10, 13, 20, 22, 30, 31, 35, 46, 60, 65, 65, 77, 81, 91, 96]
+
+```
+
 #### 应用
 
 -
@@ -207,6 +300,16 @@
 - 最佳情况： T(n) = O(n+k)
 - 最坏情况： T(n) = O(n+k)
 - 平均情况： T(n) = O(n+k)
+
+#### 使用
+
+```js
+import { countingSort } from 'ct-dsa'
+
+var arr = [2, 2, 3, 8, 7, 1, 2, 2, 2, 7, 3, 9, 8, 2, 1, 4, 2, 4, 6, 9, 2]
+console.log(countingSort(arr))
+// [1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 6, 7, 7, 8, 8, 9, 9]
+```
 
 #### 应用
 
@@ -241,6 +344,16 @@
 - 最坏情况： T(n) = O(n+k)
 - 平均情况： T(n) = O(n2)
 
+#### 使用
+
+```js
+import { bucketSort } from 'ct-dsa'
+
+let arr = [3,44,38,5,47,15,36,26,27,2,46,4,19,50,48]
+console.log(bucketSort(arr, 4))
+// [2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+```
+
 #### 应用
 
 -
@@ -270,6 +383,16 @@
 - 最佳情况： T(n) = O(nk)
 - 最坏情况： T(n) = O(nk)
 - 平均情况： T(n) = O(nk)
+
+#### 使用
+
+```js
+import { radixSort } from 'ct-dsa'
+
+let arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
+console.log(radixSort(arr, 2))
+// [2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+```
 
 #### 应用
 
