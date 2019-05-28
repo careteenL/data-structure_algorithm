@@ -1,0 +1,29 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      },
+      "modules": false,
+      "loose": false
+    }]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regeneratore": false,
+      "moudleName": "babel-runtime"
+    }]
+  ],
+  "env": {
+    "development": {
+      "presets": [["env", {
+        "modules": false
+      }]]
+    },
+    "test": {
+      "presets": [["env"]]
+    } 
+  }
+}
