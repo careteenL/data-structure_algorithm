@@ -6,6 +6,7 @@ import { DoublyNode } from './models/linked-list-models'
 
 export default class DoublyLinkedList extends LinkedList {
   constructor () {
+    super()
     this.tail = null // 链尾
   }
 

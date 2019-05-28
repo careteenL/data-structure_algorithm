@@ -6,7 +6,7 @@ import { Node } from './models/linked-list-models'
 
 export default class CircularLinkedList extends LinkedList {
   constructor () {
-    
+    super()
   }
 
   /**

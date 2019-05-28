@@ -2,7 +2,7 @@
  * @desc 二叉搜索树
  */ 
 import Node from './models/node'
-import Queue from './queue';
+import Queue from './queue'
 
 export default class BST {
   constructor () {

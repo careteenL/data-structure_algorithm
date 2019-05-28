@@ -84,7 +84,7 @@ export default class Set {
     const values = this.values()
     let ret = `${values[0]}`
     for (let i = 1; i < values.length; i++) {
-      ret = `${ret},${values[i].toString()}`;
+      ret = `${ret},${values[i].toString()}`
     }
     return ret
   }  

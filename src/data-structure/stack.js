@@ -12,7 +12,7 @@ export default class Stack {
    * @param {Any} element 栈内元素可为任意类型
    */ 
   push (element) {
-    this.items[count] = element
+    this.items[this.count] = element
     this.count++
   }
 
@@ -38,7 +38,7 @@ export default class Stack {
     if (this.isEmpty()) {
       return undefined
     }
-    return this.items[this,count - 1]
+    return this.items[this.count - 1]
   }
 
   /**

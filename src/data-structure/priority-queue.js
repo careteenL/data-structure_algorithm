@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * @desc 优先队列
  */ 
