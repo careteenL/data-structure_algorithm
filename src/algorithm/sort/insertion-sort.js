@@ -24,3 +24,5 @@ export function insertionSort(array) {
   }
   return array
 }
+
+// todo: 使用二分查找优化插入排序 `while (j > 0 && array[j - 1] > temp) {`

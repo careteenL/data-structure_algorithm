@@ -134,6 +134,10 @@ const array = insertionSort(createNonSortedArray());
 console.log(array);
 ```
 
+#### 优化
+
+- todo: 使用**二分查找**优化插入排序 `while (j > 0 && array[j - 1] > temp) {`
+
 #### 应用
 
 - chrome下的[v8](https://github.com/v8/v8/blob/ad82a40509c5b5b4680d4299c8f08d6c6d31af3c/src/js/array.js##L760:7)在数据量小于10时使用插入排序，大于10时使用快速排序。
