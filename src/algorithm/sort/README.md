@@ -381,6 +381,7 @@ console.log(bucketSort(arr, 4))
 #### 实现
 
 - [基数排序](./radix-sort.js)
+- [基数排序 - 更易读版本](./radix-sort-easy.js)
 
 #### 时间复杂度
 
