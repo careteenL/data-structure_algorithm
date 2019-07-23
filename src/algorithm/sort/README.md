@@ -339,6 +339,7 @@ console.log(countingSort(arr))
 #### 实现
 
 - [桶排序](./bucket-sort.js)
+- [桶排序 - 更易读版本](./bucket-sort-easy.js)
 
 #### 时间复杂度
 
