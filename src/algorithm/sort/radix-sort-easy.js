@@ -5,7 +5,7 @@
  */
 export function radixSortEasy(array) {
   const max = Math.max(...array)
-  const buckets = Array.from({ length: 10 }, _ => [])
+  const buckets = Array.from({ length: 10 }, () => [])
   // 有效位数
   let m = 1
   while (m < max) {
