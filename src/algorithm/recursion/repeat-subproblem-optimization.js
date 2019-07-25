@@ -31,6 +31,24 @@ console.log(fibDynamic(3))
 console.log(fibDynamic(200))
 
 /**
+ * @desc 斐波那契数列 - 尾递归优化
+ *       尾递归优化实质上是编译器在解析时将递归写法改写成循环（while/goTo）
+ *       目的是用递归的写法便于理解和代码量少
+ *           编译成循环的方式使得运行更快
+ * @param {Number} n 
+ * @param {Number} num
+ * @param {Number} ret
+ * @return {Number} ret
+ */
+export function fibTail (n, num = 1, ret = 1) {
+  if (n <= 1) return ret
+  return fibTail(n - 1, ret, num + ret)
+}
+// Test
+console.log(fibTail(3))
+console.log(fibTail(200))
+
+/**
  * @desc 上台阶 - 基础版
  * @time >O(2^n)
  * @param {Number} n 
