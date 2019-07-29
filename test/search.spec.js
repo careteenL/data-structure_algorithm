@@ -14,7 +14,7 @@ describe('binary Search', () => {
     expect( binarySearch(arr, 68)).to.equal(-1)
   })
 
-  it('search 22 but not exist', () => {
+  it('search 22 is exist and index is 3', () => {
     expect( binarySearch(arr, 22)).to.equal(3)
   })
 })
