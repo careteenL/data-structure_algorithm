@@ -4,6 +4,7 @@ import { expect } from 'chai'
 import { quickSort, quickSortPure } from '../src/algorithm/sort/quick-sort'
 import { radixSortEasy } from '../src/algorithm/sort/radix-sort-easy'
 import { bucketSortEasy } from '../src/algorithm/sort/bucket-sort-easy'
+import { heapSort } from '../src/algorithm/sort/heap-sort'
 
 const quickPreArr = [20, 45, 78, 22, 49, 25, 66, 3, 71, 5, 33]
 let quickPreArrPure = [20, 45, 78, 22, 49, 25, 66, 3, 71, 5, 33]
@@ -33,5 +34,13 @@ const bucketExpectArr = [7, 8, 26, 29, 29, 38, 49, 56]
 describe('bucket Sort', () => {
   it('bucketSortEasy', () => {
     expect(bucketSortEasy(bucketPreArr)).to.eql(bucketExpectArr)
+  })
+})
+
+const heapPreArr = [29, 26, 7, 49, 8, 38, 29, 56]
+const heapExpectArr = [7, 8, 26, 29, 29, 38, 49, 56]
+describe('heap Sort', () => {
+  it('heapSort', () => {
+    expect(heapSort(heapPreArr)).to.eql(heapExpectArr)
   })
 })

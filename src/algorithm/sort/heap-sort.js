@@ -25,13 +25,13 @@ function heapify (array, index, heapSize) {
 
 function buildMaxHeap (array) {
   // 从数组的中间项下标往前开始构建大根堆
-  for (let i = array.length << 1; i >= 0; i--) {
+  for (let i = array.length >> 1; i >= 0; i--) {
     heapify(array, i, array.length)    
   }
   return array
 }
 
-export default function heapSort(array) {
+export function heapSort (array) {
   let heapSize = array.length
   // 构建大根堆
   buildMaxHeap(array)
