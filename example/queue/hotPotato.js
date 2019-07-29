@@ -1,8 +1,8 @@
 /**
  * @desc 循环队列的运用-击鼓传花
  */ 
-import { Queue } from '../data-structures/queue'
-function hotPotato (nameList, num) {
+import Queue from '../../src/data-structure/queue.js'
+function hotPotato (nameList, num, callback) {
   let queue = new Queue()
   // 先挨个入队
   for (let i = 0; i < nameList.length; i++) {
@@ -15,7 +15,8 @@ function hotPotato (nameList, num) {
       queue.enqueue(queue.dequeue())            
     }
     eliminated = queue.dequeue()
-    console.log(`${eliminated}: out !`)
+    // console.log(`${eliminated}: out !`)
+    callback && callback(eliminated)
   }
   return queue.dequeue()
 }
