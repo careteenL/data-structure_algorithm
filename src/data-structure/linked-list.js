@@ -140,6 +140,20 @@ export default class LinkedList {
   }
 
   /**
+   * @desc 反转单向链表
+   */
+  reverse (p = this.head) {
+    if (p.next) {
+      this.reverse(p.next)
+      p.next.next = p
+      p.next = null
+    } else {
+      this.head = p
+    }
+    return this
+  }
+
+  /**
    * @desc 打印链表
    * @return {String}
    */ 
