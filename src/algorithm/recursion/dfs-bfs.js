@@ -72,8 +72,8 @@ function bfs (node) {
 // Test
 console.log('bfs: ', bfs(n1))
 
-// export {
-//   dfs,
-//   dfsRecursion,
-//   bfs
-// }
+export {
+  dfs,
+  dfsRecursion,
+  bfs
+}

@@ -236,5 +236,3 @@
 ![docs-external-sort-14](../assets/docs-external-sort-14.jpg)
 ![docs-external-sort-15](../assets/docs-external-sort-15.jpg)
 ![docs-external-sort-16](../assets/docs-external-sort-16.jpg)
-![docs-external-sort-17](../assets/docs-external-sort-17.jpg)
-![docs-external-sort-18](../assets/docs-external-sort-18.jpg)
