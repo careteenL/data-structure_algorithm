@@ -52,6 +52,6 @@ console.log(parse('a[name][second]=careteen&a[company]=sohu&b=y'))
 console.log(parse('color=Deep%20Blue'))
 console.log(parse('a[0]=1&a[1]=2'))
 
-export {
-  parse
-}
+// export {
+//   parse
+// }
