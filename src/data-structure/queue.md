@@ -7,6 +7,8 @@
 - [API](#api)
 - [Usage](#usage)
 - [Where](#where)
+  - [循环队列的运用-击鼓传花](#循环队列的运用-击鼓传花)
+  - [火车车厢重排问题](#火车车厢重排问题)
 
 ### What
 
@@ -97,12 +99,18 @@ console.log(queue.toString()); // Camila
 
 ### Where
 
-- [循环队列的运用-击鼓传花](../../example/queue/hotPotato.js)
+#### 循环队列的运用-击鼓传花
+
+- [循环队列的运用-击鼓传花](../../example/queue/hotPotato.js)详解
 ```js
 import { hotPotato } from 'ct-dsa'
 let nameList = ['Careteen', 'Lanlan', 'High', 'Letme', 'Uzi']
 hotPotato(nameList, 7)
 ```
 
-- 更多使用场景...
+#### 火车车厢重排问题
+
+- [火车车厢重排问题](./queue-problem.md)详解
+
+#### 更多使用场景...
 
