@@ -195,4 +195,16 @@ export default class BST {
       if (curNode.right) queue.enqueue(curNode.right)
     }
   }
+
+  /**
+   * @desc 反转二叉树
+   */
+  reverse (node = this.root) {
+    if (!node) return
+    const tmp = node.left
+    node.left = node.right
+    node.right = tmp
+    this.reverse(node.left)
+    this.reverse(node.right)
+  }
 }

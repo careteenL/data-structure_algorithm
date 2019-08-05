@@ -7,6 +7,7 @@
 - [API](#api)
 - [Usage](#usage)
 - [Where](#where)
+  - [反转二叉树](#反转二叉树)
 
 ### What
 
@@ -148,7 +149,9 @@ to be replaced
 
 ### Where
 
-to be replaced
+#### 反转二叉树
 
-- 更多使用场景...
+- [详见](./tree-reverse.md)
+
+#### 更多使用场景...
 
