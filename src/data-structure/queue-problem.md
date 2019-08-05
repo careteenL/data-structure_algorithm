@@ -9,8 +9,8 @@
 ![alg-queue-problem-2](../../assets/alg-queue-problem-2.jpg)
 ![alg-queue-problem-3](../../assets/alg-queue-problem-3.jpg)
 ![alg-queue-problem-4](../../assets/alg-queue-problem-4.jpg)
-使用数组在出队时时间复杂度为O(n)
-取而代之使用队列在出队时时间复杂度为O(1)
+- 使用数组在出队时时间复杂度为O(n)
+- **取而代之使用队列在出队时时间复杂度为O(1)**
 ![alg-queue-problem-5](../../assets/alg-queue-problem-5.jpg)
 ![alg-queue-problem-6](../../assets/alg-queue-problem-6.jpg)
 
