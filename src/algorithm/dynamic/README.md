@@ -2,7 +2,8 @@
 
 ## 传送门
 
-- [query string](./qs.js)
+- [解析URL字符串](./qs.md)
+- [数网格中的路径](./grid-path.md)
 
 ## TODO
 
