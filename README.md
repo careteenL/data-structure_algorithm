@@ -6,11 +6,13 @@
 
 ### 刷题模式ing
 
-0816开启刷题模式，[计划](./src/leetcode/Plan.md)每周三道题，感兴趣的可前往查看所有题目。[备份永久地址](./src/leetcode/)
+- 0816开启刷题模式，[计划](./src/leetcode/Plan.md)每周三道题，感兴趣的可前往查看所有题目。[备份永久地址](./src/leetcode/)
 
-**目前进行[【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)**
+- [每周出题分类参考](https://cspiration.com/leetcodeClassification#103)
 
-**打卡方式**为在对应issue贴上
+- **目前进行[【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)**
+
+- **打卡方式**为在对应issue贴上
 ```
 ## 第一题思路
 ...
@@ -23,11 +25,10 @@
 // 能优化最好
 ```
 
-**目的**是互相监督
+- **目的**是互相监督
 
-**历史**
-
-- [【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)
+- **历史**
+  - [【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)
 
 ### 传送门
 
