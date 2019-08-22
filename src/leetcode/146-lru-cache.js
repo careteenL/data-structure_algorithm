@@ -49,3 +49,4 @@ lru.put(4, 4) // Map(2) {3 => 3, 4 => 4}
 lru.get(1) // return -1
 lru.get(3) // return 3 Map(2) {4 => 4, 3 => 3}
 lru.get(4) // return 4 Map(2) {3 => 3, 4 => 4}
+console.log(lru)
