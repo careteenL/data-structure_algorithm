@@ -10,7 +10,7 @@
 
 - [每周出题分类参考](https://cspiration.com/leetcodeClassification#103)
 
-- **目前进行[【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)**
+- **目前进行[【第二周】](https://github.com/careteenL/data-structure_algorithm/issues/2)**
 
 - **打卡方式**为在对应issue贴上
 ```
@@ -28,6 +28,7 @@
 - **目的**是互相监督
 
 - **历史**
+  - [【第二周】](https://github.com/careteenL/data-structure_algorithm/issues/2)
   - [【第一周】](https://github.com/careteenL/data-structure_algorithm/issues/1)
 
 ### 传送门
