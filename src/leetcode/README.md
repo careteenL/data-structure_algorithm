@@ -52,6 +52,15 @@
 - 345 Reverse Vowels of a String
     - [题目描述](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
     - [具体实现](./345-reverse-vowels-of-a-string.js)
+- 205 isomorphic strings
+    - [题目描述](https://leetcode-cn.com/problems/isomorphic-strings/)
+    - [具体实现](./205-isomorphic-strings.js)
+- 290 word pattern
+    - [题目描述](https://leetcode-cn.com/problems/word-pattern/)
+    - [具体实现](./290-word-pattern.js)
+- 038 count and say
+    - [题目描述](https://leetcode-cn.com/problems/count-and-say/)
+    - [具体实现](./038-count-and-say.js)
 
 ### Design
 
