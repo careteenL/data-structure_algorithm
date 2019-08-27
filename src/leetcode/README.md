@@ -34,6 +34,24 @@
 - 014 Longest Common Prefix
     - [题目描述](https://leetcode-cn.com/problems/longest-common-prefix/)
     - [具体实现](./014-longest-common-prefix.js)
+- 058 Length of Last Word
+    - [题目描述](https://leetcode-cn.com/problems/length-of-last-word/)
+    - [具体实现](./058-length-of-last-word.js)
+- 387 First Unique Character in a String
+    - [题目描述](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+    - [具体实现](./387-first-unique-character-in-a-string.js)
+- 383 Ransom Note
+    - [题目描述](https://leetcode-cn.com/problems/ransom-note/)
+    - [具体实现](./383-ransom-note.js)
+- 344 Reverse String
+    - [题目描述](https://leetcode-cn.com/problems/reverse-string/)
+    - [具体实现](./344-reverse-string.js)
+- 151 Reverse Words in a String
+    - [题目描述](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+    - [具体实现](./151-reverse-words-in-a-string.js)
+- 345 Reverse Vowels of a String
+    - [题目描述](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+    - [具体实现](./345-reverse-vowels-of-a-string.js)
 
 ### Design
 
