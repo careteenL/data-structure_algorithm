@@ -30,6 +30,10 @@
 - [316 remove duplicate letters](./316-remove-duplicate-letters.js) **贪心**、**栈**
 - [443 string compression](./443-string-compression.js) **双指针**
 
+### LinkedList
+
+- [206 reverse linked list](./206-reverse-linked-list.js)
+
 ### Design
 
 - [146 LRU Cache](./146-lru-cache.js) **Map**
