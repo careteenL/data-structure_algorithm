@@ -32,7 +32,8 @@
 
 ### LinkedList
 
-- [206 reverse linked list](./206-reverse-linked-list.js)
+- [206 reverse linked list](./206-reverse-linked-list.js) **递归**
+- [141 linked list cycle](./141-linked-list-cycle.js) **双指针**、**hasMap**
 
 ### Design
 
