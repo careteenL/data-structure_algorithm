@@ -36,6 +36,10 @@
 - [141 linked list cycle](./141-linked-list-cycle.js) **链表**、**双指针**、**Map**
 - [024 swap nodes in pairs](./024-swap-nodes-in-pairs.js) **链表**、**递归**
 
+### Dynamic Programming
+
+- [070 climbing stairs](./070-climbing-stairs.js) **递归**、**动态规划**
+
 ### Design
 
 - [146 LRU Cache](./146-lru-cache.js) **Map**
