@@ -40,6 +40,11 @@
 
 - [070 climbing stairs](./070-climbing-stairs.js) **递归**、**动态规划**
 
+### Tree
+
+- [104 maximum deep of binary tree](./104-maximum-deep-of-binary-tree.js) **递归**、**深度优先搜索**、**广度优先搜索**
+- [112 path sum](./112-path-sum.js) **递归**、**深度优先搜索**
+
 ### Design
 
 - [146 LRU Cache](./146-lru-cache.js) **Map**
