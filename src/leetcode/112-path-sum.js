@@ -25,6 +25,13 @@ function TreeNode(val) {
   this.left = this.right = null
 }
 
+//        5
+//      /  \
+//     4    8
+//    /     / \
+//  11     13  4
+//  / \         \
+// 7   2         1
 // Test
 var head = new TreeNode(5)
 var node1 = new TreeNode(4)
