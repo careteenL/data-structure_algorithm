@@ -1,0 +1,15 @@
+{
+  "name": "uncategorized",
+  "version": "1.0.0",
+  "description": "### Catalog",
+  "main": "hanoi-tower.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three-way-merge": "^0.1.0"
+  }
+}

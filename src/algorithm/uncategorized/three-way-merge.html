@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>three-way-merge</title>
+  <script src="https://cdn.jsdelivr.net/npm/node-diff3@3.1/dist/index.iife.min.js"></script>
+</head>
+<body>
+  <script>
+    const o = ['AA', 'ZZ', '00', 'M', '99'];
+    const a = ['AA', 'a', 'b', 'c', 'ZZ', 'new', '00', 'a', 'a', 'M', '99'];
+    const b = ['AA', 'a', 'd', 'c', 'ZZ', '11', 'M', 'z', 'z', '99'];
+    const result = Diff3.diff3Merge(a, o, b);
+    console.log('result: ', result);
+  </script>
+</body>
+</html>

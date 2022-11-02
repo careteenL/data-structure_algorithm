@@ -1,0 +1,19 @@
+lockfileVersion: 5.3
+
+specifiers:
+  three-way-merge: ^0.1.0
+
+dependencies:
+  three-way-merge: 0.1.0
+
+packages:
+
+  /three-way-merge/0.1.0:
+    resolution: {integrity: sha512-FzQCDf2No6a1bYop4B4WWAlI9FcnV9+WCXRENaae1fZMRobxj92JDA/W1pc6eV7QQoDyUdoud2tCyZYolP6DYg==, tarball: http://npm.internal.focus.cn:80/three-way-merge/-/three-way-merge-0.1.0.tgz}
+    dependencies:
+      ts-std: 0.6.2
+    dev: false
+
+  /ts-std/0.6.2:
+    resolution: {integrity: sha512-mhlyyOBvF7r+Xh8Ut4Fa3qe3BxjQMTWxHLb7NBSkOmxOe1V5Oc5+PpUl/y7tpBOL2sJZwLL1r5T8hqmc0SAFTw==, tarball: http://npm.internal.focus.cn:80/ts-std/-/ts-std-0.6.2.tgz}
+    dev: false
