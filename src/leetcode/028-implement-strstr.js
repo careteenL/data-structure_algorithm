@@ -8,23 +8,26 @@
  */
 // 方法一
 var strStr = function (haystack, needle) {
-  return haystack.indexOf(needle)
-}
+  return haystack.indexOf(needle);
+};
 // Test
-console.log(strStr('hello', 'll'))
-console.log(strStr('aaaaa', 'bba'))
+console.log(strStr("hello", "ll"));
+console.log(strStr("aaaaa", "bba"));
 
 // 方法二
 var strStr2 = function (haystack, needle) {
   for (let i = 0; i < haystack.length; i++) {
     if (haystack[i] === needle[0]) {
       if (haystack.substr(i, needle.length) === needle) {
-        return i
+        return i;
       }
     }
   }
-  return -1
-}
+  return -1;
+};
 // Test
-console.log(strStr2('hello', 'll'))
-console.log(strStr2('aaaaa', 'bba'))
+console.log(strStr2("hello", "ll"));
+console.log(strStr2("aaaaa", "bba"));
+
+// 方法三 KMP 实现
+// 代码随想录 视频讲解 https://www.bilibili.com/video/BV1M5411j7Xx?vd_source=a0beb1b1b69021ba06490959315cf7ef&spm_id_from=333.788.videopod.sections

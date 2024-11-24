@@ -2,6 +2,40 @@
  * @desc 300. 最长递增子序列
  * @leetcode https://leetcode.cn/problems/longest-increasing-subsequence
  */
+
+// 2 3 1 4 6 5 8 7 9
+// 1 3 5 7 8 9
+// 1 4 5 7 9
+// 2 3 4 5 7 9
+function lengthOfLISNew(nums) {
+  let n = nums.length;
+  if (n <= 1) {
+    return n;
+  }
+  let tail = [nums[0]]; //存放最长上升子序列数组
+  for (let i = 0; i < n; i++) {
+    if (nums[i] > tail[tail.length - 1]) {
+      //当nums中的元素比tail中的最后一个大时 可以放心push进tail
+      tail.push(nums[i]);
+    } else {
+      //否则进行二分查找
+      let left = 0;
+      let right = tail.length - 1;
+      while (left < right) {
+        let mid = (left + right) >> 1;
+        if (tail[mid] < nums[i]) {
+          left = mid + 1;
+        } else {
+          right = mid;
+        }
+      }
+      tail[left] = nums[i]; //将nums[i]放置到合适的位置，此时前面的元素都比nums[i]小
+    }
+    console.log(tail);
+  }
+  return tail.length;
+}
+
 function lengthOfLIS(arr) {
   const result = [0]; // 存放子序列的索引
   const len = arr.length;
@@ -31,10 +65,12 @@ function lengthOfLIS(arr) {
       }
     }
     result[start] = i;
+    console.log(result);
   }
   return result.length;
 }
 // Test
+console.log(lengthOfLIS([2, 3, 1, 4, 6, 5, 8, 7, 9]));
 console.log(lengthOfLIS([2, 3, 1, 5, 6, 8, 7, 9, 4]));
 console.log(lengthOfLIS([4, 10, 4, 3, 8, 9]));
 

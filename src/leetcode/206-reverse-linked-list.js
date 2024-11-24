@@ -6,18 +6,18 @@
  * }
  */
 function ListNode(val) {
-  this.val = val
-  this.next = null
+  this.val = val;
+  this.next = null;
 }
-var head = new ListNode(1)
-var node2 = new ListNode(2)
-var node3 = new ListNode(3)
-var node4 = new ListNode(4)
-var node5 = new ListNode(5)
-head.next = node2
-node2.next = node3
-node3.next = node4
-node4.next = node5
+var head = new ListNode(1);
+var node2 = new ListNode(2);
+var node3 = new ListNode(3);
+var node4 = new ListNode(4);
+var node5 = new ListNode(5);
+head.next = node2;
+node2.next = node3;
+node3.next = node4;
+node4.next = node5;
 /**
  * @desc 反转单向列表
  * @leetcode https://leetcode-cn.com/problems/reverse-linked-list/
@@ -34,19 +34,20 @@ var reverseList = function (head) {
     // ...
     // 直到第一个节点
     if (head && head.next) {
-      _reverse(head.next)
-      head.next.next = head
-      head.next = null
-    } else { // 1. 找到链表尾巴，将其作为表头
-      _reverse.head = head
+      _reverse(head.next);
+      head.next.next = head;
+      head.next = null;
+    } else {
+      // 1. 找到链表尾巴，将其作为表头
+      _reverse.head = head;
     }
   }
-  _reverse(head)
-  return _reverse.head
-}
+  _reverse(head);
+  return _reverse.head;
+};
 
 // Test
-console.log(reverseList(head))
+console.log(reverseList(head));
 
 /**
  * @think 方法二 迭代
@@ -57,15 +58,32 @@ console.log(reverseList(head))
  */
 var reverseList2 = function (head) {
   var prev = null,
-    curr = head
+    curr = head;
   while (curr) {
-    var _next = curr.next
-    curr.next = prev
-    prev = curr
-    curr = _next
+    var _next = curr.next;
+    curr.next = prev;
+    prev = curr;
+    curr = _next;
   }
-  return prev
+  return prev;
+};
+
+// Test
+console.log(reverseList2(head));
+
+// 1 2 3 4 5
+// 1
+function reverseList3(head) {
+  let current = head;
+  let pre = null;
+  while (current) {
+    const next = current.next;
+    current.next = pre;
+    pre = current;
+    current = next;
+  }
+  return pre;
 }
 
 // Test
-console.log(reverseList2(head))
+console.log(reverseList3(head));
